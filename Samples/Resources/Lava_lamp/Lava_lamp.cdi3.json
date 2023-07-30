@@ -1,0 +1,169 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param11",
+			"GroupId": "ParamGroup",
+			"Name": "--- [input] ---"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamGroup",
+			"Name": "angle X"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamGroup",
+			"Name": "angle z"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroup",
+			"Name": "angle y"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "ParamGroup",
+			"Name": "身体旋转　X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "ParamGroup",
+			"Name": "身体旋转　Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "ParamGroup",
+			"Name": "身体旋转　Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "ParamGroup",
+			"Name": "呼吸 input"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup4",
+			"Name": "双眼　开闭"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "ParamGroup4",
+			"Name": "左眼　微笑"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "ParamGroup4",
+			"Name": "右眼　微笑"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "ParamGroup4",
+			"Name": "eyeball x"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "ParamGroup4",
+			"Name": "eyeball y"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroup5",
+			"Name": "嘴　变形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroup5",
+			"Name": "嘴　张开和闭合"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "ParamGroup7",
+			"Name": "Hair Move x"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "ParamGroup7",
+			"Name": "Hair Move y"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "小人出现"
+		},
+		{
+			"Id": "ParamBreath2",
+			"GroupId": "",
+			"Name": "lava lamp output x"
+		},
+		{
+			"Id": "ParamBreath3",
+			"GroupId": "",
+			"Name": "lava lamp output y"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "上Blobs下"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "input"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "Eyes"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "Mouths"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "Hair"
+		},
+		{
+			"Id": "ParamGroup10",
+			"GroupId": "",
+			"Name": "Additional"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part5",
+			"Name": "lava_lamp_avatars 1.psd"
+		},
+		{
+			"Id": "Part",
+			"Name": "熔岩灯"
+		},
+		{
+			"Id": "Part2",
+			"Name": "头发"
+		},
+		{
+			"Id": "Part3",
+			"Name": "眼睛"
+		},
+		{
+			"Id": "Part4",
+			"Name": "嘴"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleZ"
+		],
+		[
+			"ParamBreath2",
+			"ParamBreath3"
+		]
+	]
+}

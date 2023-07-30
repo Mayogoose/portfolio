@@ -1,0 +1,50 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Lava_lamp.moc3",
+		"Textures": [
+			"Lava_lamp.4096/texture_00.png"
+		],
+		"Physics": "Lava_lamp.physics3.json",
+		"DisplayInfo": "Lava_lamp.cdi3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motions/idle.motion3.json"
+				}
+			],
+			"TapBody": [
+				{
+					"File": "motions/serious.motion3.json"
+				},
+				{
+					"File": "motions/surprised.motion3.json"
+				}
+			]
+		}
+	},
+	
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthForm",
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitAreaHead",
+			"Name": "Body"
+		}
+	]
+}

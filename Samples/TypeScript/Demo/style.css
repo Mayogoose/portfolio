@@ -1,0 +1,10 @@
+.banner {
+    text-align: center;
+    height: 200px; /* Adjust the height as per your banner size */
+    line-height: 200px; /* Same as the height to vertically center the content */
+    background-color: #f0f0f0; /* Replace with your banner background color */
+  }
+  
+  h4 {
+    display: inline-block;
+  }
